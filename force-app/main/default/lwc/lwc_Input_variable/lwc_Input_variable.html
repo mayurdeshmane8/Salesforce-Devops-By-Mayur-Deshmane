@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Input Example">
+        <lightning-layout>
+            <lightning-layout-item size="6">
+               <lightning-input label="Enter Emp Name" type="text" name="name" value={name}></lightning-input>
+               <lightning-input label="Enter Emp Phone" type="text"  value={phone}></lightning-input>
+               <lightning-input label="Enter Emp Sal" type="number" value={Salary}></lightning-input>
+                <lightning-input label="Enter Date of Birth" type="date"  value={dob}></lightning-input>
+         
+                 <lightning-button label="Calculate" onclick={showme}> </lightning-button>
+           </lightning-layout-item>
+
+           </lightning-layout-item>
+           The Final Salary of employee is:{finalSal}
+           </lightning-layout-item>
+        </lightning-layout>
+   </lightning-card>
+</template>
